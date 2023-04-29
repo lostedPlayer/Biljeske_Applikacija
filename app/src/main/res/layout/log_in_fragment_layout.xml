@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/Log_in_back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:padding="10dp"
+                android:src="@drawable/back_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/nunito_bold"
+                android:text="@string/splash_screen_application_name"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="62dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/Log_in_title"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/Log_in_subheader"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/nunito_bold"
+                android:text="@string/sing_in_userEmail_editText_title"
+                android:textAlignment="textStart" />
+
+
+            <EditText
+                android:id="@+id/log_in__acc_EX_userEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_background_img"
+                android:fontFamily="@font/nunito_bold"
+                android:hint="@string/sing_in_userEmail_editText_title_Hint"
+                android:padding="5dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/nunito_bold"
+                android:text="@string/sing_in_userPassword_editText_title"
+                android:textAlignment="textStart" />
+
+
+            <EditText
+                android:id="@+id/Log_in_acc_EX_userPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_background_img"
+                android:fontFamily="@font/nunito_bold"
+                android:inputType="textPassword"
+                android:hint="@string/sing_in_userPassword_editText_title_Hint"
+                android:padding="5dp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Log_in_acc_BT_fogeted_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:text="@string/resset_password_title"
+            android:textAlignment="center"
+            android:textColor="@color/button_color" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Log_in_acc_BT_Subbmit"
+        android:layout_width="319dp"
+        android:layout_height="74dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/button_color"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/Log_in_button_text"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

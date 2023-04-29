@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:padding="20dp">
+
+    <ImageButton
+        android:id="@+id/Note_edit_layout_BT_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/back_icon"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/Note_edit_layout_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/Add_Note_screen_title"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+
+    <EditText
+        android:id="@+id/Note_edit_layout_ET_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Note_edit_layout_title"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/note_edit_edit_text_bc"
+        android:padding="10dp"
+        android:fontFamily="@font/nunito_bold"
+        android:hint="Naslov"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/Note_edit_layout_ET_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Note_edit_layout_ET_title"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/note_edit_edit_text_bc"
+        android:padding="10dp"
+        android:hint="Tekst"
+        android:inputType="textMultiLine" />
+
+
+    <Button
+        android:id="@+id/Note_edit_layout_BT_submit"
+        android:layout_width="319dp"
+        android:layout_height="74dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/button_color"
+        android:text="@string/Add_Note_screen_save_button_text" />
+
+
+</RelativeLayout>

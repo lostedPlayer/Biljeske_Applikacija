@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/Note_card_layout_cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="12dp">
+
+
+    <RelativeLayout
+        android:id="@+id/Note_card_parent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/Note_card_BT_delete"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/delete_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/Note_card_layout_TX_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/Note_card_BT_delete"
+            android:fontFamily="@font/nunito_bold"
+            android:text="This is TEST"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_below="@id/Note_card_layout_TX_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+
+
+            <ImageView
+                android:layout_marginTop="1dp"
+                android:background="@color/text_color_gray"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"/>
+
+
+            <TextView
+                android:id="@+id/Note_card_layout_TX_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Cerebral palsy sport classification is a classification system used by sports that include people with cerebral palsy (CP) with different degrees of severity to compete fairly against each..."
+                android:textColor="@color/text_color_gray"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "770900464565",
+    "project_id": "biljeske-aplikacija",
+    "storage_bucket": "biljeske-aplikacija.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770900464565:android:ca6e5dbbf106452cbefffc",
+        "android_client_info": {
+          "package_name": "com.gamadevlopment.biljeske"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770900464565-qrdq09ncmcs1mk0pv1uipl1pk87upm8n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-8-gH_kGoMK4F6wc_RqD8-ThHZyMPIH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770900464565-qrdq09ncmcs1mk0pv1uipl1pk87upm8n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

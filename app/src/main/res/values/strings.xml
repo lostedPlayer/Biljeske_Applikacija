@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Biljeske</string>
+
+
+    <!-- splash screen 1-->
+    <string name="splash_1_title"></string>
+    <string name="splash_1_subheader_text"></string>
+    <string name="button_create_acount_text">Početak</string>
+    <string name="button_have_acount_text">Vec imate otvoren račun?</string>
+    <string name="splash_screen_application_name">Bilješke</string>
+
+
+    <!-- splash screen 2-->
+    <string name="splash_2_title"></string>
+    <string name="splash_2_subheader_text"></string>
+
+
+    <!-- sing in screen -->
+    <string name="sing_in_title">Napravite besplatan račun</string>
+    <string name="sing_in_subheader">Pridruzite se Nasoj aplikaciji i sacuvajte vase biljeske onlajn za sigurnije pohranjivanje</string>
+
+    <string name="sing_in_userName_editText_title">Vaše Ime</string>
+    <string name="sing_in_userEmail_editText_title">Email Adresa</string>
+    <string name="sing_in_userPassword_editText_title">Lozinka</string>
+
+    <string name="sing_in_userName_editText_title_Hint">Vaše Ime</string>
+    <string name="sing_in_userEmail_editText_title_Hint">Email Adresa</string>
+    <string name="sing_in_userPassword_editText_title_Hint">Lozinka</string>
+
+
+    <string name="sing_in_Button_Make_account_title">Lozinka</string>
+
+
+    <!-- log in screen -->
+    <string name="Log_in_title">Prijavite se na vaš račun</string>
+    <string name="Log_in_subheader">Upisite vaše podatke ispod i pristupite vašim Bilješkama</string>
+
+    <string name="Log_in_forget_password_text">Prijavite se na vaš Račun</string>
+    <string name="Log_in_button_text">Prijavi se</string>
+
+
+    <!--  Reset Password screen -->
+    <string name="resset_password_title">Zaboravljena Lozinka?</string>
+    <string name="resset_password_subheader">Na vaš Email će mo poslati link za reset lozinke</string>
+
+    <string name="resset_password_button_text">Pošalji Email</string>
+
+
+    <!-- All Notes screen -->
+    <string name="All_Notes_screen_No_notes_title">Nakon sto dodate Biljeske ovdje ce se pojaviti</string>
+    <string name="All_Notes_screen_subHeader">Dodajte vaše misli i ideje </string>
+
+    <string name="All_Notes_screen_title">Sve Bilješke</string>
+
+    <!-- Delete  Alert Dialog -->
+    <string name="Delete_Note_dialog_title">Delete_Note_dialog</string>
+    <string name="Delete_Note_dialog_delete_button_text">Obriši</string>
+    <string name="Delete_Note_dialog_cancle_button_text">Odustani</string>
+
+
+    <!-- Add Note screen -->
+    <string name="Add_Note_screen_title">Uredjivanje</string>
+    <string name="Add_Note_screen_title_adding_note">Dodavanje Nove Biljeske</string>
+    <string name="Add_Note_screen_save_button_text">Sačuvaj</string>
+    <string name="obrisi">Obrisi</string>
+    <string name="uredi">Uredi</string>
+    <string name="log_out_dialog_message">Zelite li se odjaviti sa profila?</string>
+    <string name="log_out_dialog_cancle_button">Nazad</string>
+    <string name="log_out_dialog_log_out_button">Odjava</string>
+    <string name="delete_note_dialog_title">Brisanje</string>
+    <string name="delete_note_dialog_message">"Obrisati Biljesku "</string>
+    <string name="delete_note_dialog_negative_button">Nazad</string>
+    <string name="delete_note_dialog_positive_button">Obrisi</string>
+    <string name="delete_note_dialog_title_deleted">Obrisano!</string>
+    <string name="delete_note_dialog_message_deleted">Biljeska je Obrisana</string>
+    <string name="delete_note_dialog_deleted_button">Uredu</string>
+
+
+    <!-- Profile screen -->
+
+</resources>
